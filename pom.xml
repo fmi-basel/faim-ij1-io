@@ -14,7 +14,7 @@
 
 	<groupId>ch.fmi</groupId>
 	<artifactId>IJWriter</artifactId>
-	<version>0.1.0</version>
+	<version>0.1.1-SNAPSHOT</version>
 
 	<name>IJ Image Writer</name>
 	<description>A Maven project implementing an ImageJ command.</description>
