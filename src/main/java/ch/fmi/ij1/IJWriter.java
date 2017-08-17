@@ -1,4 +1,4 @@
-package ch.fmi.write;
+package ch.fmi.ij1;
 
 import ij.ImagePlus;
 import ij.io.FileSaver;
@@ -9,7 +9,7 @@ import org.scijava.log.LogService;
 import org.scijava.plugin.Parameter;
 import org.scijava.plugin.Plugin;
 
-@Plugin(type = Command.class, headless = true, menuPath = "FMI>Write Image using IJ")
+@Plugin(type = Command.class, headless = true, menuPath = "FMI>Write TIFF Image (IJ1)")
 public class IJWriter implements Command {
 	@Parameter
 	private LogService log;
@@ -19,7 +19,7 @@ public class IJWriter implements Command {
 
 	@Parameter(label = "File path")
 	private String path;
-	
+
 	@Parameter(type = ItemIO.OUTPUT)
 	private boolean saved;
 
@@ -33,6 +33,7 @@ public class IJWriter implements Command {
 			log.error(exc);
 		}
 		*/
-		saved = new FileSaver(imp).saveAsTiff(path);		
+		log.info("Saving image to " + path);
+		saved = new FileSaver(imp).saveAsTiff(path);
 	}
 }

@@ -13,11 +13,11 @@
 	</parent>
 
 	<groupId>ch.fmi</groupId>
-	<artifactId>IJWriter</artifactId>
-	<version>0.1.1-SNAPSHOT</version>
+	<artifactId>ij1-io</artifactId>
+	<version>0.1.3-SNAPSHOT</version>
 
-	<name>IJ Image Writer</name>
-	<description>A Maven project implementing an ImageJ command.</description>
+	<name>IJ1 Image IO</name>
+	<description>A SciJava command wrapping IJ1 for image IO</description>
 	<url>None</url>
 	<inceptionYear>2017</inceptionYear>
 	<organization>
