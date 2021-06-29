@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>23.1.1</version>
+		<version>30.0.0</version>
 		<relativePath />
 	</parent>
 
 	<groupId>ch.fmi</groupId>
-	<artifactId>ij1-io</artifactId>
+	<artifactId>faim-ij1-io</artifactId>
 	<version>0.1.6-SNAPSHOT</version>
 
 	<name>IJ1 Image IO</name>
@@ -53,16 +53,16 @@
 
 	<mailingLists>
 		<mailingList>
-			<name>ImageJ Forum</name>
-			<archive>http://forum.imagej.net/</archive>
+			<name>Image.sc Forum</name>
+			<archive>https://forum.image.sc/</archive>
 		</mailingList>
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/fmi-faim/fmi-ij2-plugins</connection>
-		<developerConnection>scm:git:git@github.com:fmi-faim/fmi-ij2-plugins</developerConnection>
+		<connection>scm:git:git://github.com/fmi-basel/faim-ij1-io</connection>
+		<developerConnection>scm:git:git@github.com:fmi-basel/faim-ij1-io</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/fmi-faim/fmi-ij2-plugins</url>
+		<url>https://github.com/fmi-basel/faim-ij1-io</url>
 	</scm>
 	<issueManagement>
 		<system>None</system>
@@ -72,7 +72,6 @@
 	</ciManagement>
 
 	<properties>
-		<package-name>ch.fmi.write</package-name>
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>FMI Basel</license.copyrightOwners>
 
@@ -82,8 +81,8 @@
 
 	<repositories>
 		<repository>
-			<id>imagej.public</id>
-			<url>http://maven.imagej.net/content/groups/public</url>
+			<id>scijava.public</id>
+			<url>https://maven.scijava.org/content/groups/public</url>
 		</repository>
 	</repositories>
 
