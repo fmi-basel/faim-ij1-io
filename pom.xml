@@ -75,6 +75,9 @@
 		<package-name>ch.fmi.write</package-name>
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>FMI Basel</license.copyrightOwners>
+
+		<!-- NB: Deploy releases to the SciJava Maven repository. -->
+		<releaseProfiles>deploy-to-scijava</releaseProfiles>
 	</properties>
 
 	<repositories>
