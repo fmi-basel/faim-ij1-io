@@ -1,3 +1,5 @@
+[![SciJava CI](https://github.com/fmi-basel/faim-ij1-io/actions//workflows/.gitaction.yml/badge.svg)](https://github.com/fmi-basel/faim-ij1-io/actions//workflows/.gitaction.yml)
+
 # faim-ij1-io
 
 A simple ImageJ2/SciJava wrapper for reading and writing TIFF (and similar) files through IJ1
