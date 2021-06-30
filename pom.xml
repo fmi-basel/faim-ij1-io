@@ -68,7 +68,8 @@
 		<system>None</system>
 	</issueManagement>
 	<ciManagement>
-		<system>None</system>
+		<system>GitHub</system>
+		<url>https://github.com/fmi-basel/faim-ij1-io/actions</url>
 	</ciManagement>
 
 	<properties>
