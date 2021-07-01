@@ -1,3 +1,5 @@
+[![](https://github.com/fmi-basel/faim-ij1-io/actions/workflows/build-main.yml/badge.svg)](https://github.com/fmi-basel/faim-ij1-io/actions/workflows/build-main.yml)
+
 [![SciJava CI](https://github.com/fmi-basel/faim-ij1-io/actions//workflows/.gitaction.yml/badge.svg)](https://github.com/fmi-basel/faim-ij1-io/actions//workflows/.gitaction.yml)
 
 # faim-ij1-io
