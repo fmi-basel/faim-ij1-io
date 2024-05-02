@@ -11,7 +11,7 @@
 
 	<groupId>ch.fmi</groupId>
 	<artifactId>faim-ij1-io</artifactId>
-	<version>0.1.6-SNAPSHOT</version>
+	<version>0.1.6</version>
 
 	<name>IJ1 Image IO</name>
 	<description>A SciJava command wrapping IJ1 for image IO</description>
@@ -61,7 +61,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/fmi-basel/faim-ij1-io</connection>
 		<developerConnection>scm:git:git@github.com:fmi-basel/faim-ij1-io</developerConnection>
-		<tag>HEAD</tag>
+		<tag>faim-ij1-io-0.1.6</tag>
 		<url>https://github.com/fmi-basel/faim-ij1-io</url>
 	</scm>
 	<issueManagement>
